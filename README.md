@@ -40,4 +40,12 @@ Finalmente, se entró a la página creada y se probó la función.
 
 ![alt text](image-10.png)
 
+Para eliminar los recursos provisionados mediante Terraform en este proyecto, se utiliza el comando terraform destroy. Este comando revisa el estado actual registrado en terraform.tfstate y procede a eliminar todos los recursos creados por Terraform.
+Esto asegura que todos los recursos gestionados por Terraform en este proyecto sean eliminados de manera controlada, evitando dejar infraestructura activa que pueda generar costos innecesarios.
+
+<img width="1559" height="805" alt="image" src="https://github.com/user-attachments/assets/74977be9-9590-4979-9285-234fed31c463" />
+
+<img width="1525" height="755" alt="image" src="https://github.com/user-attachments/assets/b6c88916-fac3-4c70-9036-cd36961d0162" />
+
+
 Todo este flujo asegura que la infraestructura se despliegue de manera segura, automatizada y reproducible, aprovechando los beneficios de Terraform como IaC, incluyendo trazabilidad de cambios, consistencia entre ambientes y facilidad para recrear o modificar la infraestructura de manera controlada. Este proceso permite además versionar el código, mantener buenas prácticas y reducir errores humanos al aplicar cambios en la nube.
